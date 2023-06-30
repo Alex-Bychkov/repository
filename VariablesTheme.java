@@ -75,19 +75,19 @@ public class VariablesTheme {
         System.out.println("\n6. Вывод символов и их кодов");
         char char1 = '#', char2 = '&', char3 = '@', char4 = '^', char5 = '_';
         System.out.println(
-                "Код " + (int)char1 + " Символ " + char1 +
-                "\nКод " + (int)char2 + " Символ " + char2 + "\nКод " + (int)char3 + " Символ " + char3 +
-                "\nКод " + (int)char4 + " Символ " + char4 + "\nКод " + (int)char5 + " Символ " + char5
+                "Код " + (int) char1 + " Символ " + char1 +
+                "\nКод " + (int) char2 + " Символ " + char2 + "\nКод " + (int) char3 + " Символ " + char3 +
+                "\nКод " + (int) char4 + " Символ " + char4 + "\nКод " + (int) char5 + " Символ " + char5
         );
 
         System.out.println("\n7. Вывод в консоль ASCII-арт Дюка");
-        char1 = '/'; char2 = '\\';  char3 = '_'; char4 = '('; char5 = ')';
+        char1 = '/'; char2 = '\\'; char3 = '('; char4 = ')';
         System.out.println(
                 "    " + char1 + char2 + "\n" +
                 "   " + char1 + "  " + char2 + "\n" +
-                "  " + char1 + char3 + char4 + " " + char5 + char2 + "\n" +
+                "  " + char1 + char5 + char3 + " " + char4 + char2 + "\n" +
                 " " + char1 + "      " + char2 + "\n" +
-                char1 + char3 + char3 + char3 + char3 + char1 + char2 + char3 + char3 + char2
+                char1 + char5 + char5 + char5 + char5 + char1 + char2 + char5 + char5 + char2
         );
 
         System.out.println("\n8. Вывод количества сотен, десятков и единиц числа");
@@ -99,7 +99,7 @@ public class VariablesTheme {
         );
 
         System.out.println("\n9. Вывод количества сотен, десятков и единиц числа");
-        int time = 86399, hour = time / 3600, min = time % 3600 / 60, sec = time / 60 % 60;
+        int time = 86399, hour = time / 3600, min = time % 60, sec = time / 60 % 60;
         System.out.println("Время " + hour + ":" + min + ":" + sec);
     }
 }
