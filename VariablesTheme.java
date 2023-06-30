@@ -99,7 +99,7 @@ public class VariablesTheme {
         );
 
         System.out.println("\n9. Вывод количества сотен, десятков и единиц числа");
-        int time = 86399, hour = time/3600, min = time%3600/60, sec = ((time%3600) - min * 60);
+        int time = 86399, hour = time / 3600, min = time % 3600 / 60, sec = time / 60 % 60;
         System.out.println("Время " + hour + ":" + min + ":" + sec);
     }
 }
