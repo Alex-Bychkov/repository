@@ -23,11 +23,12 @@ public class VariablesTheme {
         );
 
         System.out.println("\n2. Расчет стоимости товара со скидкой");
-        double penPrice= 100, bookPrice = 200, discnt = 0.11;
+        double penPrice= 100, bookPrice = 200, discount = 0.11;
         System.out.println(
                 "Общая стоимость товаров без скидки " + (penPrice + bookPrice) +
-                "\nСумма скидки " + (penPrice + bookPrice) * discnt +
-                "\nОбщая стоимость товаров со скидкой " + ((penPrice + bookPrice) - (penPrice + bookPrice) * discnt)
+                "\nСумма скидки " + (penPrice + bookPrice) * discount +
+                "\nОбщая стоимость товаров со скидкой " + ((penPrice + bookPrice) - 
+                (penPrice + bookPrice) * discount)
         );
 
         System.out.println(
@@ -98,7 +99,7 @@ public class VariablesTheme {
                 "\nПроизведение его цифр = " + (digit1*digit2*digit3)
         );
 
-        System.out.println("\n9. Вывод количества сотен, десятков и единиц числа");
+        System.out.println("\n9. Вывод времени");
         int time = 86399, hour = time / 3600, min = time % 60, sec = time / 60 % 60;
         System.out.println("Время " + hour + ":" + min + ":" + sec);
     }
