@@ -227,7 +227,7 @@ public class StringsLesson {
                     "на какой позиции она находится");
             int nullString = 0;
             for (int i = 0; i < strings7.length; i++) {
-                if (strings7[i] == "") {
+                if (strings7[i].equals("")) {
                     nullString++;
                     int[] nullStrings = new int[i];
                     System.out.println("Пустая строка имеет позицию в массиве = " + nullString);
