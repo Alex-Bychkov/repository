@@ -1,8 +1,4 @@
-import org.w3c.dom.ls.LSOutput;
-
 import java.util.Arrays;
-import java.util.logging.SocketHandler;
-
 public class StringsLesson {
     public static class Task1 {
         static String[] strings = {
